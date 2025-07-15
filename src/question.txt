@@ -1,9 +1,13 @@
-In the Card component, return a div.
+1--Inside the Button component return an html button element.
 
-Children of Card component should be the content of the div.
+2-- Render the children of Button component in between the opening and closing tags of the button element.
 
-Correctly, apply the styles in Card.css to the Card component.
+3--Correctly, apply the styles in Button.css to the Button component.
 
-Import Card component in the AddUser component and enclose the form in between the opening and closing tags of Card component.
+4--Import Button component in the AddUser component and replace the button element that you have inside the form with the Button component.
 
-Correctly, apply the styles in AddUser.css to the AddUser component. [Note: Ensure that the class applied to the Card opening tag, trickle downs to the Card component div.]
+5--The text in between the opening and closing tags of the custom Button component will still be "Add User".
+
+6--Give this custom Button a "type" attribute with value as "submit".
+
+7-- Now, inside Button component make use of props to set the type of button element there, and also make "Add User" the text inside the button element there.
