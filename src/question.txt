@@ -1,0 +1,9 @@
+In the Card component, return a div.
+
+Children of Card component should be the content of the div.
+
+Correctly, apply the styles in Card.css to the Card component.
+
+Import Card component in the AddUser component and enclose the form in between the opening and closing tags of Card component.
+
+Correctly, apply the styles in AddUser.css to the AddUser component. [Note: Ensure that the class applied to the Card opening tag, trickle downs to the Card component div.]

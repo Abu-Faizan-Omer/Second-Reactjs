@@ -1,20 +1,24 @@
-// Write your code below:
 
 import React from "react";
+import Card from "../UI/Card"
+import "./AddUser.css"
 
 const AddUser = () => {
   const addUserHandler = (event) => {
-    event.preventDefault()
-  }
-  return (
-    <form  onSubmit={addUserHandler}>
-      <label htmlFor="username" >Username </label>
-      <input id="username" type="text"></input>
-      <label htmlFor="age" >Age </label>
-      <input id="age" type="number"></input>
-      <button type="submit">Add User</button>
-    </form>
- ) 
-}
+    event.preventDefault();
+  };
 
-export default AddUser
+  return (
+    <Card className="input">
+      <form onSubmit={addUserHandler}>
+        <label htmlFor="username">Username</label>
+        <input id="username" type="text" />
+        <label htmlFor="age">Age</label>
+        <input id="age" type="number" />
+        <button type="submit">Add User</button>
+        </form>
+    </Card>
+  );
+};
+
+export default AddUser;
