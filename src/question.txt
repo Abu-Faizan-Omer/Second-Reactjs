@@ -1,13 +1,7 @@
-1--Inside the Button component return an html button element.
+VALIDATING User
 
-2-- Render the children of Button component in between the opening and closing tags of the button element.
+1- blank form will not be submitted
 
-3--Correctly, apply the styles in Button.css to the Button component.
+2-valid age should be submitted no negative age is submitted
 
-4--Import Button component in the AddUser component and replace the button element that you have inside the form with the Button component.
-
-5--The text in between the opening and closing tags of the custom Button component will still be "Add User".
-
-6--Give this custom Button a "type" attribute with value as "submit".
-
-7-- Now, inside Button component make use of props to set the type of button element there, and also make "Add User" the text inside the button element there.
+3-both have some value then it is submitted
