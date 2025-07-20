@@ -1,12 +1,13 @@
-// Write your code at relevant places in the code below:
 
 import React from "react";
-import AddUser from "./components/Users/AddUser"
+import AddUser from "./components/Users/AddUser";
+import UserList from "./components/Users/UsersList";
+
 function App() {
   return (
     <div>
-    <AddUser/>
-
+      <AddUser />
+      <UserList users={[]} />
     </div>
   );
 }
